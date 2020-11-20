@@ -1,0 +1,13 @@
+C:\Users\opilane\source\repos\Iseseisevtöö\Deleting\obj\Debug\netcoreapp3.1\Deleting.csprojAssemblyReference.cache
+C:\Users\opilane\source\repos\Iseseisevtöö\Deleting\obj\Debug\netcoreapp3.1\Deleting.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\Iseseisevtöö\Deleting\obj\Debug\netcoreapp3.1\Deleting.AssemblyInfo.cs
+C:\Users\opilane\source\repos\Iseseisevtöö\Deleting\obj\Debug\netcoreapp3.1\Deleting.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\Iseseisevtöö\Deleting\bin\Debug\netcoreapp3.1\Deleting.exe
+C:\Users\opilane\source\repos\Iseseisevtöö\Deleting\bin\Debug\netcoreapp3.1\Deleting.deps.json
+C:\Users\opilane\source\repos\Iseseisevtöö\Deleting\bin\Debug\netcoreapp3.1\Deleting.runtimeconfig.json
+C:\Users\opilane\source\repos\Iseseisevtöö\Deleting\bin\Debug\netcoreapp3.1\Deleting.runtimeconfig.dev.json
+C:\Users\opilane\source\repos\Iseseisevtöö\Deleting\bin\Debug\netcoreapp3.1\Deleting.dll
+C:\Users\opilane\source\repos\Iseseisevtöö\Deleting\bin\Debug\netcoreapp3.1\Deleting.pdb
+C:\Users\opilane\source\repos\Iseseisevtöö\Deleting\obj\Debug\netcoreapp3.1\Deleting.dll
+C:\Users\opilane\source\repos\Iseseisevtöö\Deleting\obj\Debug\netcoreapp3.1\Deleting.pdb
+C:\Users\opilane\source\repos\Iseseisevtöö\Deleting\obj\Debug\netcoreapp3.1\Deleting.genruntimeconfig.cache
