@@ -16,7 +16,8 @@ namespace Iseseisevtöö
         }
         public static void MoveToFruit(string fileName)
         {
-            string roothPath = @"C:\Users\opilane\samples\LOGITpe20-Week12-WorkingWithFiles-Task\fruit";
+            string roothPath = @"C:\Users\opilane\samples\LOGITpe20-Week12-WorkingWithFiles-Task";
+            string destinationPath = @"C:\Users\opilane\samples\LOGITpe20-Week12-WorkingWithFiles-Task\fruit";
             string fullFileName = $"{fileName}.txt";
             string fullFolderPath = Path.Combine(roothPath, fullFileName);
             File.Create(Path.Combine(roothPath, fullFileName));
@@ -26,24 +27,25 @@ namespace Iseseisevtöö
             }
             else
             {
-                Directory.CreateDirectory(fullFolderPath);
+                File.Move(Path.Combine(roothPath, fullFileName), Path.Combine(destinationPath, fullFileName));
             }
 
         }
 
         public static void MovetoVegetables(string fileName)
         {
-            string roothPath = @"C:\Users\opilane\samples\LOGITpe20-Week12-WorkingWithFiles-Task\vegetables";
-            string fullFileName = $"{fileName}.txt";
-            string fullFolderPath = Path.Combine(roothPath, fullFileName);
-            File.Create(Path.Combine(roothPath, fullFileName));
-            if (Directory.Exists(fullFolderPath))
+            string roothPath1 = @"C:\Users\opilane\samples\LOGITpe20-Week12-WorkingWithFiles-Task";
+            string destinationPath1 = @"C:\Users\opilane\samples\LOGITpe20-Week12-WorkingWithFiles-Task\vegetables";
+            string fullFileName1 = $"{ fileName}.txt";
+            string fullFolderPath1 = Path.Combine(roothPath1, fullFileName1);
+            File.Create(Path.Combine(roothPath1, fullFileName1));
+            if (Directory.Exists(fullFolderPath1))
             {
                 Console.WriteLine("The File already exists.");
             }
             else
             {
-                Directory.CreateDirectory(fullFolderPath);
+                File.Move(Path.Combine(roothPath1, fullFileName1), Path.Combine(destinationPath1, fullFileName1));
             }
         }
     }
